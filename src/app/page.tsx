@@ -1,3 +1,9 @@
+import { Mural } from '@/components/muralis/mural';
+
 export default function Home() {
-  return <></>;
+  return (
+    <main className="h-screen w-screen overflow-hidden">
+      <Mural />
+    </main>
+  );
 }
