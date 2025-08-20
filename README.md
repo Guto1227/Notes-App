@@ -41,3 +41,4 @@ Este projeto foi desenvolvido para facilitar a organização de ideias e tarefas
 ---
 
 Sinta-se à vontade para contribuir ou sugerir melhorias!
+
