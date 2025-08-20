@@ -24,7 +24,7 @@ Muralis é um aplicativo de notas em formato de mural, onde você pode criar, or
 	```bash
 	npm run dev
 	```
-3. Acesse o app em `http://localhost:3000`
+3. Acesse o app em `http://localhost:9002`
 
 ## Scripts úteis
 - `npm run build` — Gera o build de produção
@@ -33,7 +33,6 @@ Muralis é um aplicativo de notas em formato de mural, onde você pode criar, or
 ## Estrutura do Projeto
 - `src/app` — Páginas e layout principal
 - `src/components` — Componentes reutilizáveis
-- `src/ai` — Integração com IA para geração de conteúdo (opcional)
 - `src/lib` — Tipos e utilitários
 
 ## Sobre
