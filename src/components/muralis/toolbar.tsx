@@ -81,9 +81,7 @@ export function Toolbar({ onAddNote, notes, isReadOnly, allTags, activeTag, onTa
         <Button size="icon" onClick={() => onAddNote()} title="Add new note">
           <Plus />
         </Button>
-        <Button size="icon" variant="outline" onClick={() => setIsAiDialogOpen(true)} title="Generate with AI">
-          <Sparkles />
-        </Button>
+        {/* Botão de IA removido */}
         <div className="flex items-center gap-1">
           <Select value={activeTag || 'all'} onValueChange={(value) => onTagFilterChange(value === 'all' ? null : value)}>
             <SelectTrigger className="w-[150px] rounded-full">
